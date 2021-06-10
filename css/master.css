@@ -1,1 +1,101 @@
+/*Cascading stylsheet for the website */
 
+/*Text inside these asterics and slashes are comments for human*/
+
+    a{
+        color: blue;/*set the text color to blue*/
+        text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+    }
+
+    a:hover{
+        color: red;/*set the text color to red here*/
+        text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+    }
+
+    body{
+        background-color: beige;/* set the background color here */
+        color: black;/* set the text color to black here */
+        font-family: Arial, Helvetica, sans-serif;/* set the font here */
+        text-align: center;/* set the text alignment here */
+
+    }
+
+    footer{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    h1{
+        margin-bottom: 0rem;
+        margin-top: 3rem;
+    }
+    h2{
+        margin-bottom: 0;
+        margin-top: 2rem;
+    }
+    h3{
+        color: rgba(117, 9, 9, 0.767);
+        margin-bottom: 1rem;
+    }
+    h4{
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
+    h5{
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+    ul{
+        /* display: table; */
+        margin: 0 0;
+        text-align: left;
+        padding-inline-start: 20px;
+    }
+    .avatar {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 3rem;
+    }
+    .resume-background{
+        background-color: whitesmoke;
+    }
+    hr.style2 {
+        border-top: 3px double #8c8b8b;
+    }
+    .left-align{
+        text-align: left;
+    }
+    div {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .row{
+        display: flex;
+        width: 100%;
+    }
+    .column-left{
+        flex: 50%;
+        text-align: left;
+        width: 100%;
+    }
+    .column-right{
+        flex: 50%;
+        text-align: right;
+        width: 100%;
+        margin-right: 2rem;
+    }
+    div.project {
+        margin-left: 2rem;
+        width: 100%;
+    }
+    h1.contact{
+        margin-top: 7rem;
+    }
+    .print {
+        display:none
+    }
+     @media print {
+        .print {display:block}
+        .btn-print {display:none;}
+    }
